@@ -184,7 +184,7 @@ defmodule Stripe.Invoice do
   created pulls in all pending invoice items on that customer, including
   prorations.
 
-  See [Stripe docs](https://stripe.com/docs/api/invoices/update)
+  See [Stripe docs](https://stripe.com/docs/api/invoices/create)
   """
   @spec create(params, Stripe.options()) :: {:ok, t} | {:error, Stripe.Error.t()}
         when params:
